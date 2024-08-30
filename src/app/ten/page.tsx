@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
-export default function Home() {
+export default function Ten() {
   const Background = "/card-left.jpg";
   return (
     <div className="h-screen w-full flex justify-center items-center">
@@ -12,16 +13,16 @@ export default function Home() {
           title="Woman holding a mug"
         ></div>
         <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-          <div className="mb-8">
-            <div className=" font-bold text-[12px] mb-2">
+          <div className="mb-4">
+            <div className=" font-bold text-[10px] mb-2">
               BOLD: Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
-            <div className="font-semibold text-[12px] mb-2">
+            <div className="font-semibold text-[10px] mb-2">
               SEMI BOLD: Lorem ipsum dolor sit amet consectetur adipisicing
               elit. Fugiat, reprehenderit ex deleniti magnam corrupti assumenda
               nihil recusandae quae rerum beatae a voluptatem est ea at culpa
             </div>
-            <p className="text-gray-700 text-[12px]">
+            <p className="text-gray-700 text-[10px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
               reprehenderit ex deleniti magnam corrupti assumenda nihil
               recusandae quae rerum beatae a voluptatem est ea at culpa
@@ -31,22 +32,23 @@ export default function Home() {
             </p>
           </div>
           <div className="mb-4 flex gap-8">
-            <Link href="/" type="button" className="px-3 py-2 text-[12px] text-center text-[#5767FB]">
+            <Link href="/" type="button" className="px-3 py-2 text-[10px] text-center text-[#5767FB]">
               Text Button (12px)
             </Link>
             <Link href="/ten"
               type="button"
-              className="px-3 py-2 text-[12px] text-center rounded-lg border border-gray-300"
+              className="px-3 py-2 text-[10px] text-center rounded-lg border border-gray-300"
             >
               Secondary Button (10px)
             </Link>
             <button
               type="button"
-              className="px-3 py-2 text-[12px] font-medium text-center text-white bg-[#5767FB] rounded-lg"
+              className="px-3 py-2 text-[10px] font-medium text-center text-white bg-[#5767FB] rounded-lg"
             >
               Primary Button
             </button>
           </div>
+
           <div className="flex items-center">
             <Image
               className="w-10 h-10 rounded-full mr-4"
@@ -55,9 +57,11 @@ export default function Home() {
               height={1000}
               width={1000}
             />
-            <div className="text-[12px]">
-              <p className="text-gray-900 text-[12px] leading-none">Jonathan Reinink</p>
-              <p className="text-gray-600 text-[12px]">Aug 18</p>
+            <div className="text-[10px]">
+              <p className="text-gray-900 text-[10px] leading-none">
+                Jonathan Reinink
+              </p>
+              <p className="text-gray-600 text-[10px]">Aug 18</p>
             </div>
           </div>
         </div>

@@ -44,7 +44,7 @@ export default function Home() {
               type="button"
               className="px-3 py-2 text-[12px] font-medium text-center text-white bg-[#5767FB] rounded-lg"
             >
-              Primary Button
+              Primary btn
             </button>
           </div>
           <div className="flex items-center">

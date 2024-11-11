@@ -56,7 +56,7 @@ export default function Home() {
               width={1000}
             />
             <div className="text-[12px]">
-              <p className="text-gray-900 text-[12px] leading-none">Jonathan Reinink</p>
+              <p className="text-gray-900 text-[12px] leading-none">Wishlist Reinink</p>
               <p className="text-gray-600 text-[12px]">Aug 18</p>
             </div>
           </div>
